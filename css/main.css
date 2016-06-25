@@ -3,8 +3,9 @@
 	padding: 0px;
 }
 
+
 header{
-	height: 590px;
+	min-height: 500px;
 }
 
 nav{
@@ -44,11 +45,10 @@ nav ul li a{
 }
 
 .banner{
-	background: url(../img/banner-02.jpg) rgba(0,0,0,0.2);
+	background: url(../img/banner-02.jpg) ;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-	height: 550px;
+	height: 580px;
 	margin: 0 auto;
 }
 
@@ -66,6 +66,11 @@ nav ul li a{
     height: 40px;
 }
 
+button:hover{
+	transform: scale(1.03);
+	box-shadow: 0 22px 22px -15px;
+}
+
 .button a{
 	display: inline-block;
 	width: 110px;
@@ -74,12 +79,14 @@ nav ul li a{
 }
 
 
+
+
 .inner{
 	max-width: 250px;
 	text-align: center;
 	margin: 0 auto;   /*place the elements to the center of banner area*/
     position: relative;     /*place the elements to the center of current column*/
-	top:180px;
+	top:220px;
 }
 
 .inner h1{
@@ -99,6 +106,7 @@ nav ul li a{
 .inner a:hover{
 	text-shadow: 2px 2px 1px rgba(149, 152, 152, 0.9);
 	text-emphasis: initial;
+	
 }
 
 
@@ -113,7 +121,7 @@ nav ul li a{
 }
 
 .more{
-	margin-top:130px ;
+	margin-top:120px;
 }
 
 
@@ -364,3 +372,94 @@ nav ul li a{
 	color: darkgray;
 }
 
+/* color flur ,make the sidebar look obiviously*/
+.mask{
+	display: none; /*sidebar animation*/
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.1);
+}
+
+
+#sidebar{
+	position: fixed;
+	top: 40px;
+	bottom:0px;
+	right: -300px;
+	/*background: rgb(61, 63, 111);*/
+	background-color:rgba(49, 51, 103, 0.98);
+	width: 300px;
+	transition: right 0.5s;
+}
+
+
+#sidebar-img{
+	width: 160px;
+	height: 160px;
+	margin: 20px auto;
+	border: 1px solid antiquewhite;
+	border-radius: 25px;
+	background: url(../img/sidebar-img02.jpg)  top center;
+	
+}
+
+#sidebar-img:hover{
+	width: 200px;
+/*	height: 200px;*/
+	border-radius: 50px;
+	box-shadow: 1px 1px 2px lightgrey;
+	background: url(../img/sidebar-img02.jpg)  right center;
+}
+
+#sidebar-menue{
+	margin: 0 auto;
+	width: 300px;
+	_height: 300px;
+	min-height: 300px;
+}
+
+#sidebar-menue ul{
+	list-style: none;	
+}
+
+#sidebar-menue ul a{
+	text-decoration: none;
+	display: inline-block;
+	width: 300px;
+	color:rgba(247,245,246,0.74);
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	height: 50px;
+	line-height: 50px;
+}
+
+#sidebar-menue ul a:hover{
+	width: 100%;
+	font-size: 23px;
+	background: rgba(199, 201, 232,0.1);
+}
+
+
+.retrun_top{
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	border: 1px solid black;
+	background: rgba(253, 252, 252, 0.85);
+	width: 100px;
+	height: 40px;
+	line-height: 30px;
+	text-align: center;
+	border: none;
+	border-radius: 10px;
+}
+
+.retrun_top a{
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}

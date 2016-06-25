@@ -2,9 +2,12 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>CherryLiang's Flat Design Blog</title>
+		<title clas="title">CherryLiang's  Flat Page</title>
 		<link href="css/main.css" rel="stylesheet" type="text/css" >
 		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css " type="text/css">
+		
+		<!--Add title icon-->
+		<link rel="shortcut icon" href="img/cherry.ico" />
 	</head>
 	<body>
 		<header >
@@ -12,8 +15,7 @@
 			<div class="signature"><a href="#">Cherry Liang</a></div>
 				<ul>
 				<li><a href="#">Contact me</a></li>
-				<li><a href="#">Link3</a></li>
-				<li><a href="#">Link2</a></li>
+				<li id="sidebar_link"><a href="#" >Menu - Clike me</a></li>
 				<li ><a href="#" >Home Page</a></li>
 				</ul>
 			</nav><!--Navigation -->            
@@ -23,7 +25,7 @@
              		<h1><a href="#">Cherry Liang</a></h1>
              		<p>Thanks for visiting :) <br>
              		      Feel free to clone and customize as your website if you love it!</p>
-             		<button class="button"><a href="#">Download Me!</a></button>
+             		<button class="button"><a href="https://github.com/CaiYiLiang/Flat-Page.git">Download Me!</a></button>
              		<div class="more">More..</div>
              	</div>
              </div>
@@ -131,7 +133,6 @@
 			</section>
 		    </div>
 		<!--Content Part-->
-		
 		<footer class="footer">
 			<div class="icon-group">
 				<div class="icons">
@@ -148,5 +149,27 @@
 		</footer>
 		<!--Footer Part-->
 		
+		<div class="mask"></div>
+		<!--Side Bar Start-->
+		<div id="sidebar">
+			<div id="sidebar-img">
+			</div>
+			<div id="sidebar-menue">
+			<ul>
+			<li><a href="#">Item-1</a></li>
+			<li><a href="#">Item-2</a></li>
+			<li><a href="#">Item-3</a></li>
+			<li><a href="#">Item-4</a></li>
+			</ul>
+			</div>
+		</div>
+		<!--Side Bar End-->
+		<script src="js/jquery.js"></script>
+		<script src="js/main.js"></script>
+		
+		<!--Button Go-to-the-Top-->
+		<button class="retrun_top">
+			<a href="">Go to the TOP</a>
+		</button>
 	</body>
 </html>
