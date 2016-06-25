@@ -8,7 +8,7 @@ I suppose it is a best practise for junior web leaner or those who wanna review 
 **version**
 ----------
 <kbd>**version 0.2**</kbd>  &nbsp; 
->- Details improments(Button, Page title.ico etc.) . 
+>- Details improvements(Button, Page title.ico etc.) . 
 >- A new js floder :add jQuery components(Sidebar,scrollTop button) . 
 ><h6>*2016-06-25*</h6> 
 
