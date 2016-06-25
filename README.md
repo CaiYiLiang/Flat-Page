@@ -4,7 +4,7 @@
 This is my really first flat-design page using pure HTML5 & CSS3 and a little bit js. <br>
 I suppose it is a best practise for junior web leaner or those who wanna review the uage of HTML and CSS.
 
-<br><br>
+<br>
 **version**
 ----------
 <kbd>**version 0.2**</kbd>  &nbsp; 
